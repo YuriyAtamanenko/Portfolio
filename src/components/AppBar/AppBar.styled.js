@@ -7,8 +7,6 @@ export const Header = styled.header`
   align-items: center;
   justify-content: center;
   background-color: #212529;
-  margin-top: auto;
-
   font-size: 20px;
 `;
 

@@ -1,5 +1,5 @@
-import { Container } from 'components/App/App.styled';
+import Hero from 'components/Hero/Hero';
 
 export default function Home() {
-  return <Container>This will be my portfolio home page</Container>;
+  return <Hero />;
 }
