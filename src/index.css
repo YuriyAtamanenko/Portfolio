@@ -3,7 +3,8 @@
 body {
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
-  color: #121417;
+  color: #ffffff;
+  background-color: #212529;
 }
 
 * {
