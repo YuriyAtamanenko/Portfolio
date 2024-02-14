@@ -8,5 +8,6 @@ export const Card = styled.li`
   &:hover,
   &:focus {
     box-shadow: rgba(99, 99, 99, 0.8) 2px 8px 32px 2px;
+    scale: 1.1;
   }
 `;
