@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/673.1b5a8d0d.chunk.js","mappings":"oKAAe,SAASA,IACtB,OAAOC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,4BACd,C","sources":["pages/ProjectsPage/ProjectsPage.jsx"],"sourcesContent":["export default function Projects() {\n  return <div>My projects will be here</div>;\n}\n"],"names":["Projects","_jsx","children"],"sourceRoot":""}
