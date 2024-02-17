@@ -1,4 +1,11 @@
-import { Card } from './ProjectsCard.styled';
+import {
+  Card,
+  InfoBlock,
+  ProjectTitle,
+  Text,
+  SubTitle,
+  ProjectLink,
+} from './ProjectsCard.styled';
 
 export default function ProjectsCard({ project }) {
   const maping = list => {
@@ -8,11 +15,17 @@ export default function ProjectsCard({ project }) {
   return (
     <Card>
       <img src={project.poster} alt={project.title} height={300} width={350} />
-      <h2>{project.title}</h2>
-      <p>{maping(project.languages)}</p>
-      <p>{maping(project.libraries)}</p>
-      <a href={project.link}>View</a>
-      <a href={project.git}>Code</a>
+      <InfoBlock>
+        <ProjectTitle>{project.title}</ProjectTitle>
+        <Text>
+          <SubTitle>Languages:</SubTitle> {maping(project.languages)}
+        </Text>
+        <Text>
+          <SubTitle>Libraries:</SubTitle> {maping(project.libraries)}
+        </Text>
+        <ProjectLink href={project.link}>View</ProjectLink>
+        <ProjectLink href={project.git}>Code</ProjectLink>
+      </InfoBlock>
     </Card>
   );
 }
