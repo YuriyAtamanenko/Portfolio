@@ -3,7 +3,7 @@ export const projects = [
     id: '1',
     title: 'Power Pulse',
     poster:
-      'https://github.com/YuriyAtamanenko/GachiClub/blob/main/assets/Sign%20In-min.png?raw=true',
+      'https://media.licdn.com/dms/image/D4E2DAQF5vAbodvJnng/profile-treasury-image-shrink_800_800/0/1697197307206?e=1708776000&v=beta&t=OuSAmVRIhTERb0qW0eGGcAszAFAnlVjaKf63W7uJ3cQ',
     description:
       'A convenient web application for people with a healthy lifestyle. This app will help you establish a healthy diet and exercise',
     languages: ['JavaScript', 'CSS'],
@@ -16,7 +16,7 @@ export const projects = [
     id: '2',
     title: 'Rental Car',
     poster:
-      'https://github.com/YuriyAtamanenko/CarRentalApp/blob/main/src/images/Hero.png?raw=true',
+      'https://media.licdn.com/dms/image/D4E2DAQFYape36Andkg/profile-treasury-image-shrink_800_800/0/1697196697643?e=1708776000&v=beta&t=5COBZxx8fCtgiLKlo5AMA-nJJohAUSgQFdvXRR7VZ68',
     description:
       'Web application for car rental. In this application, you can filter cars by the selected options and save to favorites',
     languages: ['TypeScript', 'HTML', 'CSS'],

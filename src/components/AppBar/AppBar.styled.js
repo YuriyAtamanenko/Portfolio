@@ -21,7 +21,7 @@ export const StyledLink = styled(NavLink)`
   text-decoration: none;
 
   &.active {
-    color: yellow;
+    color: gold;
     text-decoration-line: underline;
   }
 `;

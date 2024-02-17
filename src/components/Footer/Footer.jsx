@@ -12,7 +12,7 @@ export const Footer = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <svg width={28} height={28} fill="orange">
+            <svg width={28} height={28} fill="gold">
               <use href={Icons + '#icon-telegram'} />
             </svg>
           </Link>
@@ -23,7 +23,7 @@ export const Footer = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <svg width={28} height={28} fill="orange">
+            <svg width={28} height={28} fill="gold">
               <use href={Icons + '#icon-github'} />
             </svg>
           </Link>
@@ -34,7 +34,7 @@ export const Footer = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <svg width={28} height={28} fill="orange">
+            <svg width={28} height={28} fill="gold">
               <use href={Icons + '#icon-linkedin'} />
             </svg>
           </Link>
