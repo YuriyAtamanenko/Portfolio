@@ -2,9 +2,12 @@ import {
   Card,
   InfoBlock,
   ProjectTitle,
-  Text,
+  LengText,
+  LibText,
   SubTitle,
   ProjectLink,
+  LinksBlock,
+  TextBlock,
 } from './ProjectsCard.styled';
 
 export default function ProjectsCard({ project }) {
@@ -14,18 +17,22 @@ export default function ProjectsCard({ project }) {
 
   return (
     <Card>
-      <img src={project.poster} alt={project.title} height={300} width={350} />
       <InfoBlock>
-        <ProjectTitle>{project.title}</ProjectTitle>
-        <Text>
-          <SubTitle>Languages:</SubTitle> {maping(project.languages)}
-        </Text>
-        <Text>
-          <SubTitle>Libraries:</SubTitle> {maping(project.libraries)}
-        </Text>
+        <img src={project.poster} alt={project.title} width={350} />
+        <TextBlock>
+          <ProjectTitle>{project.title}</ProjectTitle>
+          <LengText>
+            <SubTitle>Languages:</SubTitle> {maping(project.languages)}
+          </LengText>
+          <LibText>
+            <SubTitle>Libraries:</SubTitle> {maping(project.libraries)}
+          </LibText>
+        </TextBlock>
+      </InfoBlock>
+      <LinksBlock>
         <ProjectLink href={project.link}>View</ProjectLink>
         <ProjectLink href={project.git}>Code</ProjectLink>
-      </InfoBlock>
+      </LinksBlock>
     </Card>
   );
 }
