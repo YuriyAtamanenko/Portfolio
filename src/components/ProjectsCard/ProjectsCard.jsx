@@ -30,8 +30,12 @@ export default function ProjectsCard({ project }) {
         </TextBlock>
       </InfoBlock>
       <LinksBlock>
-        <ProjectLink href={project.link}>View</ProjectLink>
-        <ProjectLink href={project.git}>Code</ProjectLink>
+        <ProjectLink href={project.link} rel="noreferrer" target="_blank">
+          View
+        </ProjectLink>
+        <ProjectLink href={project.git} rel="noreferrer" target="_blank">
+          Code
+        </ProjectLink>
       </LinksBlock>
     </Card>
   );
