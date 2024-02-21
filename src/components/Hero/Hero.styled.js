@@ -50,10 +50,15 @@ export const NavBtn = styled(NavLink)`
   &:hover,
   &:focus {
     color: gold;
-    border: 1px solid gold;
+    border: 2px solid gold;
   }
 `;
 
 export const Gold = styled.span`
   color: gold;
+`;
+
+export const BtnBox = styled.div`
+  display: flex;
+  gap: 24px;
 `;
