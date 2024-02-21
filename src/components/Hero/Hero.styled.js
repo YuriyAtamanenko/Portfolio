@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { NavLink } from 'react-router-dom';
 
 export const BoxWrapper = styled.div`
   display: flex;
@@ -28,4 +29,31 @@ export const Title = styled.h1`
 
 export const SubTitle = styled.h2`
   font-size: 32px;
+`;
+
+export const NavBtn = styled(NavLink)`
+  display: flex;
+  border: 0.5px solid grey;
+  width: 150px;
+  height: 35px;
+  margin-top: 8px;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: inherit;
+
+  &:hover,
+  &:focus {
+    color: gold;
+    border: 1px solid gold;
+  }
+`;
+
+export const Gold = styled.span`
+  color: gold;
 `;
