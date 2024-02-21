@@ -49,6 +49,7 @@ export const NavBtn = styled(NavLink)`
 
   &:hover,
   &:focus {
+    font-size: 16px;
     color: gold;
     border: 2px solid gold;
   }
