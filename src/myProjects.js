@@ -3,7 +3,7 @@ export const projects = [
     id: '1',
     title: 'Power Pulse',
     poster:
-      'https://media.licdn.com/dms/image/D4E2DAQF5vAbodvJnng/profile-treasury-image-shrink_800_800/0/1697197307206?e=1708776000&v=beta&t=OuSAmVRIhTERb0qW0eGGcAszAFAnlVjaKf63W7uJ3cQ',
+      'https://media.licdn.com/dms/image/D4E2DAQF5vAbodvJnng/profile-treasury-image-shrink_800_800/0/1697197307206?e=1709586000&v=beta&t=eE_kSFxaAHP5L3EA5-V1w9XLfljwiJZQ7OUvsyjiErA',
     description:
       'A convenient web application for people with a healthy lifestyle. This app will help you establish a healthy diet and exercise',
     languages: ['JavaScript', 'CSS'],
@@ -16,7 +16,7 @@ export const projects = [
     id: '2',
     title: 'Rental Car',
     poster:
-      'https://media.licdn.com/dms/image/D4E2DAQFYape36Andkg/profile-treasury-image-shrink_800_800/0/1697196697643?e=1708776000&v=beta&t=5COBZxx8fCtgiLKlo5AMA-nJJohAUSgQFdvXRR7VZ68',
+      'https://media.licdn.com/dms/image/D4E2DAQFYape36Andkg/profile-treasury-image-shrink_800_800/0/1697196697643?e=1709586000&v=beta&t=KlzkRn7yFxT26twaqELLaPreexsDV03tmFPxujptIWc',
     description:
       'Web application for car rental. In this application, you can filter cars by the selected options and save to favorites',
     languages: ['TypeScript', 'HTML', 'CSS'],
@@ -29,7 +29,7 @@ export const projects = [
     id: '3',
     title: 'Cinemania',
     poster:
-      'https://media.licdn.com/dms/image/D4D2DAQHonuRVB9yBVw/profile-treasury-image-shrink_800_800/0/1687527765824?e=1708693200&v=beta&t=KoWmCBSrFFVwkmKme4kNHLCqSG0bC4--gat8cccR21I',
+      'https://media.licdn.com/dms/image/D4D2DAQHonuRVB9yBVw/profile-treasury-image-shrink_800_800/0/1687527765824?e=1709586000&v=beta&t=CByTodoJjXltcC5flLIHBfRVH8gsaDti0FqbAgcmoG0',
     description:
       'A movie search app. Allows you to get full information about the movie and watch the trailer. A website with a responsive layout',
     languages: ['JavaScript', 'SCSS', 'HTML'],
@@ -42,7 +42,7 @@ export const projects = [
     id: '4',
     title: 'Carpathians Travel',
     poster:
-      'https://media.licdn.com/dms/image/D4D2DAQGNKo1P0Ug7kg/profile-treasury-image-shrink_800_800/0/1708257935327?e=1708866000&v=beta&t=8rIQFqcsaZ_eljaoP2889e3DgEIjDzTb5c4Xcl-03R8',
+      'https://media.licdn.com/dms/image/D4D2DAQGNKo1P0Ug7kg/profile-treasury-image-shrink_800_800/0/1708257935327?e=1709586000&v=beta&t=ZZCEqB6Jb3Ildh3X5wxzQgFL2kAu8ImXK_Vx-yTbp2k',
     description: '',
     languages: ['TypeScript', 'CSS'],
     libraries: ['Next.js', 'TailwindCSS', 'Swiper'],
@@ -54,7 +54,7 @@ export const projects = [
     id: '5',
     title: 'Phonebook',
     poster:
-      'https://media.licdn.com/dms/image/D4E2DAQGvTKiu_nS5ew/profile-treasury-image-shrink_800_800/0/1697197798969?e=1708866000&v=beta&t=pjnWbXeONpofK744E6p3-8LQOQEyLKuAVQRQv23MhME',
+      'https://media.licdn.com/dms/image/D4E2DAQGvTKiu_nS5ew/profile-treasury-image-shrink_800_800/0/1697197798969?e=1709586000&v=beta&t=GEHuo1HNzyHNSdBT6zaMODvP5M--XF6Tjnpy2jadr8o',
     description: 'Application for storing important contacts',
     languages: ['JavaScript', 'HTML', 'CSS'],
     libraries: ['React.js', 'Redux', 'Emotion', 'Axios', 'Notiflix'],
@@ -66,7 +66,7 @@ export const projects = [
     id: '6',
     title: 'Phonebook API',
     poster:
-      'https://media.licdn.com/dms/image/D4D2DAQGn-1mM2cyRIQ/profile-treasury-image-shrink_800_800/0/1708259720696?e=1708866000&v=beta&t=CoFJVAVng2vTcuR8cowcVhEhk7EDfsGtq7DzCmfDyLI',
+      'https://media.licdn.com/dms/image/D4D2DAQGn-1mM2cyRIQ/profile-treasury-image-shrink_800_800/0/1708259720696?e=1709586000&v=beta&t=lHOM3ja7nuSIllixiEuOS5OEexX9k187HWDoejMZGng',
     description:
       'This REST API is used for the Phonebook application. Performs user registration and login, and adds, deletes, and changes contacts',
     languages: ['JavaScript', 'Node.js'],
@@ -91,7 +91,7 @@ export const projects = [
     id: '7',
     title: 'Ice Cream',
     poster:
-      'https://media.licdn.com/dms/image/D4D2DAQFopf5c3hBZAA/profile-treasury-image-shrink_1920_1920/0/1687527459251?e=1708866000&v=beta&t=m2FApfkpWeFi9i6ljx708SCns_SATfU-ASGvkxFDArA',
+      'https://media.licdn.com/dms/image/D4D2DAQFopf5c3hBZAA/profile-treasury-image-shrink_1920_1920/0/1687527459251?e=1709586000&v=beta&t=jbBVdklE-0PrY7tJaIIUiiXuUw4xrhJg5aikgH0lIUQ',
     description: '',
     languages: ['JavaScript', 'SCSS', 'HTML'],
     libraries: ['Modern-normalize'],
@@ -103,7 +103,7 @@ export const projects = [
     id: '8',
     title: 'WebStudio',
     poster:
-      'https://media.licdn.com/dms/image/D4D2DAQGtnNKvW6sUfw/profile-treasury-image-shrink_800_800/0/1687528724055?e=1708866000&v=beta&t=IGDR88S7yGF2seMnvzQHMP0pwUyXSUzzzIIbXC0YHcM',
+      'https://media.licdn.com/dms/image/D4D2DAQGtnNKvW6sUfw/profile-treasury-image-shrink_800_800/0/1687528724055?e=1709586000&v=beta&t=NBiXxWaXBGb_TItRl8v0aLlpRgUeXjZB0i_KrWsKcjs',
     description: 'Website for WebStudio with responsive layout.',
     languages: ['HTML', 'CSS'],
     libraries: ['-'],

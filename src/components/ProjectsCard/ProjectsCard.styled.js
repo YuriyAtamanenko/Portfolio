@@ -75,3 +75,8 @@ export const LinksBlock = styled.div`
 export const TextBlock = styled.div`
   padding: 8px;
 `;
+
+export const Poster = styled.img`
+  height: 190px;
+  object-fit: cover;
+`;

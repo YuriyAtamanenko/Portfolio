@@ -8,6 +8,7 @@ import {
   ProjectLink,
   LinksBlock,
   TextBlock,
+  Poster,
 } from './ProjectsCard.styled';
 
 export default function ProjectsCard({ project }) {
@@ -18,7 +19,12 @@ export default function ProjectsCard({ project }) {
   return (
     <Card>
       <InfoBlock>
-        <img src={project.poster} alt={project.title} width={350} />
+        <Poster
+          src={project.poster}
+          alt={project.title}
+          width={350}
+          height={200}
+        />
         <TextBlock>
           <ProjectTitle>{project.title}</ProjectTitle>
           <LengText>
@@ -30,7 +36,7 @@ export default function ProjectsCard({ project }) {
         </TextBlock>
       </InfoBlock>
       <LinksBlock>
-        <ProjectLink href={project.link} rel="noreferrer" target="_blank">
+        <ProjectLink href="{project.link}" rel="noreferrer" target="_blank">
           View
         </ProjectLink>
         <ProjectLink href={project.git} rel="noreferrer" target="_blank">
