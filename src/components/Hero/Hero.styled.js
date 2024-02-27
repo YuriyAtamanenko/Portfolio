@@ -33,7 +33,6 @@ export const SubTitle = styled.h2`
 
 export const NavBtn = styled(NavLink)`
   display: flex;
-  // border: 0.5px solid grey;
   width: 150px;
   height: 35px;
   margin-top: 8px;
