@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[400],{400:function(e,t,i){i.r(t),i.d(t,{default:function(){return f}});var r,o=i(168),n=i(686).Z.iframe(r||(r=(0,o.Z)(["\n  width: 800px;\n  height: 1500px;\n  border: none;\n"]))),l=i(184);function f(){return(0,l.jsx)(n,{title:"Certificate",src:"https://drive.google.com/file/d/15LqkgVrTaIlDTQ4fGch5l0b2ouriVmiF/preview",width:"640",height:"480",allow:"autoplay"})}}}]);
+//# sourceMappingURL=400.fa533b9f.chunk.js.map
