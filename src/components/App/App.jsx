@@ -5,6 +5,9 @@ import Layout from 'components/Layout/Layout';
 const HomePage = lazy(() => import('pages/HomePage/HomePage'));
 const ProjectsPage = lazy(() => import('pages/ProjectsPage/ProjectsPage'));
 const AboutPage = lazy(() => import('pages/AboutPage/AboutPage'));
+const CertificatePage = lazy(() =>
+  import('pages/CerteficatsPage/CerteficatsPage')
+);
 
 export default function App() {
   return (
@@ -13,6 +16,7 @@ export default function App() {
         <Route index element={<HomePage />} />
         <Route path="projects" element={<ProjectsPage />} />
         <Route path="about" element={<AboutPage />} />
+        <Route path="certificate" element={<CertificatePage />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Route>
     </Routes>

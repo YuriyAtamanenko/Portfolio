@@ -6,6 +6,7 @@ export default function AppBar() {
       <StyledLink to="/">Home</StyledLink>
       <StyledLink to="/projects">Projects</StyledLink>
       <StyledLink to="/about">About</StyledLink>
+      <StyledLink to="/certificate">Certificate</StyledLink>
     </Header>
   );
 }
