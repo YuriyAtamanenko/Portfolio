@@ -1,3 +1,4 @@
+import { TypeAnimation } from 'react-type-animation';
 import {
   InfoBox,
   PhotoBox,
@@ -17,7 +18,14 @@ export default function Hero() {
           Hi, <Gold>I'm Yurii</Gold>
         </Title>
         <SubTitle>
-          Fullstack <Gold>Developer</Gold>
+          <TypeAnimation
+            sequence={['Frontend', 3000, 'Backend', 3000, 'Fullstack', 5000]}
+            wrapper="span"
+            speed={1}
+            style={{ fontSize: '32px', display: 'inline-block' }}
+            repeat={Infinity}
+          />
+          <Gold>Developer</Gold>
         </SubTitle>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nihil
