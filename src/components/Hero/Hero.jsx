@@ -28,9 +28,9 @@ export default function Hero() {
           <Gold>Developer</Gold>
         </SubTitle>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nihil
-          sequi mollitia corporis accusantium eos reiciendis, eum, dignissimos
-          debitis ipsam a.
+          I offer full-cycle development services for websites and web
+          applications. I have more than 1 year of practical experience with
+          HTML, CSS, JavaScript, React.js, Node.js
         </p>
         <BtnBox>
           <NavBtn to="/projects">View Projects</NavBtn>
