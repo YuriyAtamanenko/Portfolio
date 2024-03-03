@@ -22,7 +22,7 @@ export default function Hero() {
             sequence={['Frontend', 3000, 'Backend', 3000, 'Fullstack', 5000]}
             wrapper="span"
             speed={1}
-            style={{ fontSize: '32px', display: 'inline-block' }}
+            style={{ fontSize: '32px' }}
             repeat={Infinity}
           />
           <Gold>Developer</Gold>
