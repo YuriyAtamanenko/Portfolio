@@ -29,7 +29,7 @@ export default function Hero() {
         </SubTitle>
         <p>
           I offer full-cycle development services for websites and web
-          applications. I have more than 1 year of practical experience with
+          applications. I have more than 1,5 year of practical experience with
           HTML, CSS, JavaScript, React.js, Node.js
         </p>
         <BtnBox>
