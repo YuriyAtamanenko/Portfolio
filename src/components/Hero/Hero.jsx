@@ -1,14 +1,15 @@
 import { TypeAnimation } from 'react-type-animation';
 import {
   InfoBox,
-  PhotoBox,
   Title,
   SubTitle,
   BoxWrapper,
   NavBtn,
   Gold,
   BtnBox,
+  HeroPhoto,
 } from './Hero.styled';
+import heroPhoto from './../../images/hero-photo.jpg';
 
 export default function Hero() {
   return (
@@ -37,7 +38,9 @@ export default function Hero() {
           <NavBtn to="/contacts">Contact Me</NavBtn>
         </BtnBox>
       </InfoBox>
-      <PhotoBox></PhotoBox>
+      <div>
+        <HeroPhoto src={heroPhoto} alt="" />
+      </div>
     </BoxWrapper>
   );
 }

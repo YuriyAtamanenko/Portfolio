@@ -16,11 +16,10 @@ export const InfoBox = styled.div`
   width: 375px;
 `;
 
-export const PhotoBox = styled.div`
+export const HeroPhoto = styled.img`
   width: 375px;
   height: 450px;
-  border: solid 2px black;
-  background-color: #cecece;
+  border-radius: 40px;
 `;
 
 export const Title = styled.h1`
