@@ -15,8 +15,8 @@ export const StyledFooter = styled.footer`
 export const Title = styled.h2`
   font-size: 20px;
 
-  color: #408ec6;
-  filter: drop-shadow(0 0 5px rgba(77, 191, 234, 0.8));
+  color: #fff;
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
 
   animation-name: blink;
   animation-timing-function: linear;
@@ -37,6 +37,6 @@ export const LinkList = styled.ul`
 
 export const Link = styled.a`
   &:hover {
-    filter: drop-shadow(0 0 5px rgba(77, 191, 234, 0.8));
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
   }
 `;

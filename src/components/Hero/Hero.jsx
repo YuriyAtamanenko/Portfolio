@@ -35,7 +35,7 @@ export default function Hero() {
         </p>
         <BtnBox>
           <NavBtn to="/projects">View Projects</NavBtn>
-          <NavBtn to="/contacts">Contact Me</NavBtn>
+          <NavBtn to="/about">About Me</NavBtn>
         </BtnBox>
       </InfoBox>
       <div>
