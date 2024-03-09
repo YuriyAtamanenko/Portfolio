@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/534.d5262f94.chunk.js","mappings":"oKAAe,SAASA,IACtB,OAAOC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,qCACd,C","sources":["pages/SkillsPage/SkillsPage.jsx"],"sourcesContent":["export default function Skills() {\n  return <div>Here will be information about me</div>;\n}\n"],"names":["Skills","_jsx","children"],"sourceRoot":""}
