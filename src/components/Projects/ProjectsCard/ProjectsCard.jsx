@@ -1,5 +1,5 @@
 import {
-  Card,
+  ProjectCard,
   InfoBlock,
   ProjectTitle,
   LengText,
@@ -17,7 +17,7 @@ export default function ProjectsCard({ project }) {
   };
 
   return (
-    <Card>
+    <ProjectCard>
       <InfoBlock>
         <Poster
           src={project.poster}
@@ -43,6 +43,6 @@ export default function ProjectsCard({ project }) {
           Code
         </ProjectLink>
       </LinksBlock>
-    </Card>
+    </ProjectCard>
   );
 }

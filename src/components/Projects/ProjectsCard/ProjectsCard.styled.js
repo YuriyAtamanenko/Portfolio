@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const Card = styled.li`
+export const ProjectCard = styled.li`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
