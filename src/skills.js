@@ -29,40 +29,40 @@ export const skills = [
   },
   {
     name: 'Firebase',
-    icon: 'https://img.icons8.com/color/48/000000/firebase.png',
+    icon: 'https://cdn.iconscout.com/icon/free/png-256/free-firebase-3628772-3030134.png',
   },
 
   {
     name: 'TailwindCSS',
-    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png',
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/320px-Tailwind_CSS_Logo.svg.png',
   },
 
   {
     name: 'Sass',
-    icon: 'https://img.icons8.com/color/48/000000/sass.png',
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1024px-Sass_Logo_Color.svg.png',
   },
   {
     name: 'HTML5',
-    icon: 'https://img.icons8.com/color/48/000000/html-5--v1.png',
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/1200px-HTML5_Badge.svg.png',
   },
   {
     name: 'CSS3',
-    icon: 'https://img.icons8.com/color/48/000000/css3.png',
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/640px-CSS3_logo.svg.png',
   },
 
   {
     name: 'MongoDB',
-    icon: 'https://img.icons8.com/color/48/000000/mongodb.png',
+    icon: 'https://seeklogo.com/images/M/mongodb-logo-D13D67C930-seeklogo.com.png',
   },
 
   {
     name: 'Netlify',
-    icon: 'https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png',
+    icon: 'https://cdn.iconscout.com/icon/free/png-256/free-netlify-3521601-2945045.png',
   },
 
   {
     name: 'GitHub',
-    icon: 'https://img.icons8.com/glyph-neue/48/ffffff/github.png',
+    icon: 'https://static-00.iconduck.com/assets.00/github-icon-2048x1988-jzvzcf2t.png',
   },
   {
     name: 'Axios',
@@ -78,10 +78,31 @@ export const skills = [
   },
   {
     name: 'Vercel',
-    icon: 'https://passwd-generator.vercel.app/static/vercel-logotype-light.png',
+    icon: 'https://www.hockeycomputindo.com/assets/img/blog/04/vercels.png',
   },
   {
     name: 'Parcel',
     icon: 'https://seeklogo.com/images/P/parcel-logo-2AED80E697-seeklogo.com.png',
+  },
+  {
+    name: 'React Native',
+    icon: 'https://cdn.worldvectorlogo.com/logos/react-native-1.svg',
+  },
+  {
+    name: 'Expo',
+    icon: 'https://seeklogo.com/images/E/expo-logo-01BB2BCFC3-seeklogo.com.png',
+  },
+  {
+    name: 'Multer',
+    icon: 'https://miro.medium.com/v2/resize:fit:638/1*iXmWchm2p9Dg4X0JHB16lA.png',
+  },
+  {
+    name: 'Postman',
+    icon: 'https://seeklogo.com/images/P/postman-logo-0087CA0D15-seeklogo.com.png',
+  },
+
+  {
+    name: 'Nanoid',
+    icon: 'https://raw.githubusercontent.com/SasLuca/zig-nanoid/main/logo.svg',
   },
 ];
