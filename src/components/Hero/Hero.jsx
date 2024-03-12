@@ -8,6 +8,7 @@ import {
   Gold,
   BtnBox,
   HeroPhoto,
+  LinkBtn,
 } from './Hero.styled';
 import heroPhoto from './../../images/hero-photo.jpg';
 
@@ -35,11 +36,17 @@ export default function Hero() {
         </p>
         <BtnBox>
           <NavBtn to="/projects">View Projects</NavBtn>
-          <NavBtn to="/about">About Me</NavBtn>
+          <LinkBtn
+            href="https://drive.google.com/file/d/12GWKqsraOZVWnSQyZfgJaSB5rZsvutaJ/view?usp=sharing"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Resume
+          </LinkBtn>
         </BtnBox>
       </InfoBox>
       <div>
-        <HeroPhoto src={heroPhoto} alt="" />
+        <HeroPhoto src={heroPhoto} alt="portret photo" />
       </div>
     </BoxWrapper>
   );
