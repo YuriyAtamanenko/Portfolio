@@ -9,7 +9,7 @@ export default function Layout() {
     <Body>
       <AppBar />
       <Container>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={null}>
           <Outlet />
         </Suspense>
       </Container>
