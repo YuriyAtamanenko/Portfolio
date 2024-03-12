@@ -48,6 +48,7 @@ export const ProjectLink = styled.a`
   display: flex;
   width: 100px;
   height: 25px;
+  gap: 6px;
 
   justify-content: center;
   align-items: center;
@@ -57,6 +58,7 @@ export const ProjectLink = styled.a`
   font-weight: 400;
   line-height: 20px;
   color: inherit;
+  fill: white;
 
   border: 0 solid;
   box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
@@ -70,6 +72,7 @@ export const ProjectLink = styled.a`
   &:focus {
     border: 1px solid gold;
     color: gold;
+    fill: gold;
     box-shadow: inset 0 0 20px rgba(255, 215, 0, 0.5),
       0 0 20px rgba(255, 215, 0, 0.2);
     outline-color: rgba(255, 255, 255, 0);
