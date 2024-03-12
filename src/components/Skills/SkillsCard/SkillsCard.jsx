@@ -1,4 +1,4 @@
-import { SkillCard, IMGBox } from './SkillsCard.styled';
+import { SkillCard, IMGBox, SkillName } from './SkillsCard.styled';
 
 export default function SkillsCard({ skills }) {
   return (
@@ -7,7 +7,7 @@ export default function SkillsCard({ skills }) {
         <img src={skills.icon} alt={skills.name} width={70} />
       </IMGBox>
 
-      <h2>{skills.name}</h2>
+      <SkillName>{skills.name}</SkillName>
     </SkillCard>
   );
 }

@@ -24,3 +24,7 @@ export const IMGBox = styled.div`
   display: flex;
   align-items: center;
 `;
+
+export const SkillName = styled.h2`
+  font-weight: 400;
+`;
