@@ -19,13 +19,21 @@ export const InfoBox = styled.div`
   display: flex;
   flex-direction: column;
   gap: 8px;
-  width: 375px;
+  width: 325px;
+
+  @media screen and (min-width: 1440px) {
+    width: 375px;
+  }
 `;
 
 export const HeroPhoto = styled.img`
-  width: 375px;
-  height: 450px;
+  width: 325px;
+
   border-radius: 40px;
+
+  @media screen and (min-width: 1440px) {
+    width: 375px;
+  }
 `;
 
 export const Title = styled.h1`
