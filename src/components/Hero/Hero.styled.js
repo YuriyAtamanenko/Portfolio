@@ -3,10 +3,16 @@ import { NavLink } from 'react-router-dom';
 
 export const BoxWrapper = styled.div`
   display: flex;
-  gap: 120px;
+  flex-direction: column-reverse;
+  gap: 40px;
   justify-content: center;
   align-items: center;
   padding: 40px 0;
+
+  @media screen and (min-width: 1440px) {
+    flex-direction: row;
+    gap: 120px;
+  }
 `;
 
 export const InfoBox = styled.div`

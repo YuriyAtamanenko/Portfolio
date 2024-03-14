@@ -8,8 +8,11 @@ export const Body = styled.div`
 `;
 
 export const Container = styled.main`
-  width: 1440px;
-  padding-left: 128px;
-  padding-right: 128px;
   margin: 0 auto;
+
+  @media screen and (min-width: 1440px) {
+    width: 1440px;
+    padding-left: 128px;
+    padding-right: 128px;
+  }
 `;
