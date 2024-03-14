@@ -3,11 +3,17 @@ import { NavLink } from 'react-router-dom';
 
 export const Header = styled.header`
   display: flex;
-  gap: 50px;
+  flex-direction: column;
+  gap: 15px;
   align-items: center;
   justify-content: center;
   background-color: #212529;
   font-size: 20px;
+
+  @media screen and (min-width: 1440px) {
+    gap: 50px;
+    flex-direction: row;
+  }
 `;
 
 export const StyledLink = styled(NavLink)`
