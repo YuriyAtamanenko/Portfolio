@@ -5,14 +5,17 @@ export const ProjectCard = styled.li`
   flex-direction: column;
   justify-content: space-between;
 
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
   &:hover,
   &:focus {
     box-shadow: rgba(99, 99, 99, 0.8) 2px 8px 32px 2px;
     scale: 1.1;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 350px;
   }
 `;
 
