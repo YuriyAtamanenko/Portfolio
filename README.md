@@ -24,7 +24,7 @@ To get started with this project, follow the installation instructions below.
 1. Clone the repository:
 
    git clone
-   [https://github.com/YuriyAtamanenko/CarRentalApp.git](https://github.com/YuriyAtamanenko/CarRentalApp.git)
+   [https://github.com/YuriyAtamanenko/Portfolio.git](https://github.com/YuriyAtamanenko/Portfolio.git)
 
 2. Install the dependencies:
 
