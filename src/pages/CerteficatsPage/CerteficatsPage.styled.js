@@ -7,7 +7,12 @@ export const CertificateWrapper = styled.div`
 `;
 
 export const Iframe = styled.iframe`
-  width: 800px;
-  height: 3350px;
+  width: 350px;
+  height: 1450px;
   border: none;
+
+  @media screen and (min-width: 1440px) {
+    width: 800px;
+    height: 3350px;
+  }
 `;
