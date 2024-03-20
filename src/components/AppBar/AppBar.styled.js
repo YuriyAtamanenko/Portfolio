@@ -2,9 +2,9 @@ import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 
 export const Header = styled.header`
+  display: flex;
   position: fixed;
   width: 100%;
-  display: flex;
   gap: 20px;
   flex-direction: row;
   align-items: center;
@@ -12,6 +12,7 @@ export const Header = styled.header`
   background-color: #212529;
 
   @media screen and (min-width: 1440px) {
+    position: relative;
     gap: 50px;
   }
 `;

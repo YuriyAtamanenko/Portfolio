@@ -7,12 +7,14 @@ export const BoxWrapper = styled.div`
   gap: 20px;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 55px;
   padding: 20px 0;
 
   @media screen and (min-width: 1440px) {
     flex-direction: row;
     gap: 120px;
+    padding: 40px 0;
+    margin-top: 0px;
   }
 `;
 
