@@ -4,10 +4,11 @@ import { NavLink } from 'react-router-dom';
 export const BoxWrapper = styled.div`
   display: flex;
   flex-direction: column-reverse;
-  gap: 40px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
-  padding: 40px 0;
+  margin-top: 60px;
+  padding: 20px 0;
 
   @media screen and (min-width: 1440px) {
     flex-direction: row;
