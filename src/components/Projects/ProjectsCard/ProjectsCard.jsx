@@ -34,6 +34,10 @@ export default function ProjectsCard({ project }) {
           <LibText>
             <SubTitle>Libraries:</SubTitle> {maping(project.libraries)}
           </LibText>
+          <LibText>
+            <SubTitle>Responsive & Adaptive Design:</SubTitle>{' '}
+            {project.responsive}
+          </LibText>
         </TextBlock>
       </InfoBlock>
       <LinksBlock>
