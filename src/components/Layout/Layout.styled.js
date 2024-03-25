@@ -10,6 +10,12 @@ export const Body = styled.div`
 export const Container = styled.main`
   margin: 0 auto;
 
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
   @media screen and (min-width: 1440px) {
     width: 1440px;
     padding-left: 128px;

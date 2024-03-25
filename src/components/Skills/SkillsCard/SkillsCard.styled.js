@@ -31,5 +31,6 @@ export const IMGBox = styled.div`
 `;
 
 export const SkillName = styled.h2`
+  font-size: 15px;
   font-weight: 400;
 `;

@@ -10,6 +10,11 @@ export const BoxWrapper = styled.div`
   margin-top: 55px;
   padding: 20px 0;
 
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    margin-top: 0px;
+  }
+
   @media screen and (min-width: 1440px) {
     flex-direction: row;
     gap: 120px;

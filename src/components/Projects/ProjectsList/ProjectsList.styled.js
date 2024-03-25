@@ -9,9 +9,15 @@ padding: 20px 0px;
   flex-wrap: wrap;
   row-gap: 50px;
 
-   @media screen and (min-width: 1440px) {
+
+   @media screen and (min-width: 768px) {
     margin-top: 0px;
+    justify-content: space-between
   }
+  @media screen and (min-width: 1440px) {
+ justify-content: space-around;
+  }
+
 
   }
 `;

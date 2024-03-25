@@ -11,9 +11,12 @@ export const Header = styled.header`
   justify-content: center;
   background-color: #212529;
 
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 768px) {
     position: relative;
     gap: 50px;
+  }
+
+  @media screen and (min-width: 1440px) {
   }
 `;
 
@@ -26,6 +29,10 @@ export const StyledLink = styled(NavLink)`
 
   color: white;
   text-decoration: none;
+
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
+  }
 
   @media screen and (min-width: 1440px) {
     font-size: 24px;
